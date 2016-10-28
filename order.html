@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>wyniki zamówienia</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,900&subset=latin,latin-ext" rel="stylesheet"/>
+</head>
+<body>
+<h1> Sklep motoryzacyjny AUTO-PARTS </h1>
+<h3>Złóż zamówienie:</h3>
+
+	<form action="index.html" method="post">
+
+			<table>
+			<tr style="background-color: #cccccc"> <td>Produkt</td> <td> Ilość</td> <td> kategoria</td> </tr>
+			<tr> <td>Opony</td> <td> <input type="text" name="tires"> </td> <td><select name ="tire_type"><option selected>zimowe</option>
+																												<option>letnie</option>
+																												<option>całosezonowe</option>
+																												</select> </td> </tr>
+
+			<tr> <td>Olej </td> <td><input type="text" name="oil"> </td> <td><select name="oil_type"><option selected>mineralny</option>
+																				<option>syntetyczny</option>
+																				</select></td> </tr>
+
+			<tr> <td>Świece zapłonowe</td> <td><input type="text" name="sparks"> </td><td>      </td></tr>
+			<tr> <td>Adres</td> <td><input type="text" name="adress"> </td> <td>      </td></tr>
+			<tr><td colspan="3"> <textarea name = "comments" rows = "5" cols = "50">Wpisz komentarz dotyczący transakcji</textarea></td></tr>
+
+		
+			</table>
+
+			<p>
+				<strong>Radio</strong><br>
+				<label>radio1 <input type="radio" name="radiotest"></label>
+				<label>radio2 <input type="radio" name="radiotest"></label>
+				<label>radio3 <input type="radio" name="radiotest"></label>
+			</p>
+
+			<p>
+				<strong>Checkbox</strong><br>
+				<label>checkbox1 <input type="checkbox" name="checkboxtest"></label>
+				<label>checkbox2 <input type="checkbox" name="checkboxtest"></label>
+				<label>checkbox3 <input type="checkbox" name="checkboxtest"></label>
+				
+			</p>
+
+			<p> <input type="submit" value="złóż zamówienie">  <input type = "reset" value = "wyczyść">  </p>
+
+		</form>
+
+
+
+
+
+</body>
+</html>
