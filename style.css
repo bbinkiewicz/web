@@ -1,7 +1,101 @@
 body
 {
+
+	background-color: #859b8c;
+	color: black;
+	font-family: 'Lato', sans-serif;
+
+
+}
+
+.logo
+{
+
+
+
+	border: 3px solid black;
+	border-radius: 50px;
+
+	width:30%;
+	height: 120px;
+	background: hsla(41, 66%, 53%, 1);
+
+}
+img:hover
+{
+	-webkit-transform: rotate(360deg) scale(2, 2); 
+	-moz-transform: rotate(360deg) scale(2, 2); 
+	-o-transform: rotate(360deg) scale(2, 2); 
+	transform: rotate(360deg) scale(2, 2);
+
+}
+
+img
+{
+	-moz-transition: -moz-transform 4s; 
+	-o-transition: -o-transform 4s; 
+	transition: transform 4s;
+}
+header
+{
 	
+	margin-right: 0 !important;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 150px;
+	background-color: #759b8c;
+
 }
 
 
+#title
+{
+	float: left;
+	margin-left: 10px;
+	padding: 10px;
+	text-shadow: 4px -4px 6px dimgray;
+}
+
+h1
+{
+	font-size: 2em;
+	text-shadow: 2px -2px 2px dimgray;
+}
+
+
+.fb
+{
+	float: left;
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #4668b3;
+}
+
+.gplus
+{
+	float: left;
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d95333;
+}
+
+.tw
+{
+	float: left;
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #3095d3;
+}
+
+a.tilelinkhtml5
+{
+	-moz-transform: rotate(360deg) scale(2, 2); 
+	color:white;
+	text-decoration: none;
+	
+}
 
