@@ -33,7 +33,7 @@ Comments on archive content
   anytime, to continue your work
 
 
-Why so many CSS files ?
+Why so many CSS ?
 -----------------------
 
 Because we like to fit all your needs :)
